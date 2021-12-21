@@ -48,18 +48,18 @@ public class Main {
 	public static void vetorAleatorio() {
 		System.out.println("\n->COM VALORES ALEATÓRIOS<-");
 		TestatorAlgoritmos.testarComValoresAleatorios(10);
-		/*TestatorAlgoritmos.testarComValoresAleatorios(100);
+		TestatorAlgoritmos.testarComValoresAleatorios(100);
 		TestatorAlgoritmos.testarComValoresAleatorios(1000);
 		TestatorAlgoritmos.testarComValoresAleatorios(10000);
 		TestatorAlgoritmos.testarComValoresAleatorios(100000);
-		TestatorAlgoritmos.testarComValoresAleatorios(1000000);*/
+		TestatorAlgoritmos.testarComValoresAleatorios(1000000);
 	}
 	
 	public static void main(String[] args) {
 		
-		//Main.vetorOrdenado();
-		//Main.vetorInversamenteOrdenado();
-		//Main.vetorQuaseOrdenado();
+		Main.vetorOrdenado();
+		Main.vetorInversamenteOrdenado();
+		Main.vetorQuaseOrdenado();
 		Main.vetorAleatorio();
 		
 	}
