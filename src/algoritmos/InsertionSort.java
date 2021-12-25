@@ -15,7 +15,7 @@ public class InsertionSort {
 		
 		for (int i = 1; i < vetor.length; i++){
 			
-			int aux = vetor[i];//troca de posicoes
+			int aux = vetor[i];
 			numeroTrocas++;
 			int j = i;
 			
@@ -24,10 +24,10 @@ public class InsertionSort {
 				vetor[j] = vetor[j-1];
 				j -= 1;
 				numeroComparacoesChaves++;
-				numeroTrocas++;//troca de posicoes
+				numeroTrocas++;
 			}
 			vetor[j] = aux;
-			numeroTrocas++;//troca de posicoes
+			numeroTrocas++;
 
 		}
 		

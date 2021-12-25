@@ -33,12 +33,12 @@ public class MergeSort {
 			pos++;
 		}
 		while (i <= meio) {
-			//numeroComparacoesChaves++;
+			numeroComparacoesChaves++;
 			vetor[pos++] = auxiliar[i++];
 			numeroTrocas++;
 		}
 		while (j <= fim) {
-			//numeroComparacoesChaves++;
+			numeroComparacoesChaves++;
 			vetor[pos++] = auxiliar[j++];
 			numeroTrocas++;
 		}

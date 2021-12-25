@@ -139,7 +139,7 @@ public class TestatorAlgoritmos {
 		
 		int[] vetor = GeradorValores.gerarValoresAleatorios(tamanho);
 		
-		/*System.out.println("\n->TAMANHO: " + tamanho);
+		System.out.println("\n->TAMANHO: " + tamanho);
 		System.out.println("\n[InsertionSort]");
 		inicio = System.currentTimeMillis();
 		resultado = InsertionSort.insertionSort(vetor.clone());
@@ -157,19 +157,19 @@ public class TestatorAlgoritmos {
 		resultado = BubbleSort.bubbleSort(vetor.clone());
 		fim = System.currentTimeMillis();
 		System.out.println("Número de comparações de chaves: " + resultado.getNumeroComparacoes() + "\nNúmero de movimentações de registro (Trocas): " + resultado.getNumeroTrocas() +"\nTempo de processamento: " + (fim-inicio));
-		*/
+		
 		System.out.println("\n[MergeSort]");
 		inicio = System.currentTimeMillis();
 		resultado = MergeSort.mergeSort(vetor.clone(), 0, tamanho-1);
 		fim = System.currentTimeMillis();
 		System.out.println("Número de comparações de chaves: " + resultado.getNumeroComparacoes() + "\nNúmero de movimentações de registro (Trocas): " + resultado.getNumeroTrocas() +"\nTempo de processamento: " + (fim-inicio));
-		/*
+		
 		System.out.println("\n[QuickSort]");
 		inicio = System.currentTimeMillis();
 		resultado = QuickSort.quickSort(vetor.clone(), 0, tamanho-1);
 		fim = System.currentTimeMillis();
 		System.out.println("Número de comparações de chaves: " + resultado.getNumeroComparacoes() + "\nNúmero de movimentações de registro (Trocas): " + resultado.getNumeroTrocas() +"\nTempo de processamento: " + (fim-inicio));
-		*/
+		
 	}
 	
 }
